@@ -1,0 +1,70 @@
+/* Body background */
+body {
+    background-color: #c96f3d; /* orange-like */
+}
+
+/* All headings */
+.head {
+    color: darkblue;
+}
+
+/* h2 special */
+#bglime {
+    background-color: limegreen;
+}
+
+/* Make only word "head" red in h2 */
+#bglime {
+    color: darkblue;
+}
+
+#bglime::first-line {
+    color: red;
+}
+
+/* Paragraphs */
+p {
+    color: white;
+}
+
+/* Second paragraph */
+#para {
+    color: green;
+}
+
+/* Word "paragraph" in 2nd paragraph */
+#para span {
+    color: black;
+    font-size: 22px;
+}
+
+/* Third paragraph word bigger */
+.big {
+    font-size: 24px;
+}
+
+/* Links (no class/id used) */
+a {
+    text-decoration: none;
+}
+
+/* First "here" */
+ul li:first-child a {
+    background-color: yellow;
+    color: black;
+}
+
+/* Second "here" */
+ul li:last-child a {
+    background-color: blue;
+    color: white;
+}
+
+/* Ordered list styling */
+ol li:nth-child(2) {
+    color: blue;
+}
+
+ol li:nth-child(3) {
+    color: red;
+}
